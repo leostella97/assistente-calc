@@ -33,3 +33,6 @@ while True:
     operador, num1, num2 = partes
     num1 = float(num1)
     num2 = float(num2)
+
+    resultado = calcular(operador, num1, num2)
+    falar(f"O resultado da operação {num1} {operador} {num2} é {resultado}.")
