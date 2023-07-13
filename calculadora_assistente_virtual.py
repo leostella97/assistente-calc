@@ -4,3 +4,6 @@ def falar(texto):
     engine = pyttsx3.init()
     engine.say(texto)
     engine.runAndWait()
+
+def calcular(operador, num1, num2):
+    resultado = 0
