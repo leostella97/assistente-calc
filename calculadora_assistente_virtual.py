@@ -17,3 +17,4 @@ def calcular(operador, num1, num2):
         resultado = num1 / num2
     return resultado
 
+falar("Olá! Sou uma calculadora virtual. Como posso ajudar?")
